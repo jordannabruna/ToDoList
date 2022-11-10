@@ -9,6 +9,7 @@ body {
   }
 
   .container {
+    background: #fff;
     width: 90%;
     max-width: 34em;
     position: absolute;
