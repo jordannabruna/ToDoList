@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if(isset($_POST['descricao'])){
     require '../db_conn.php';
@@ -6,15 +6,15 @@ if(isset($_POST['descricao'])){
     $descricao = $_POST['descricao'];
 
     if(empty($descricao)){
-        header("Location: ../index.php?mess=error");    
+        header("Location: ../index.php?mess=error");
     }else{
         $stmt = $conn->prepare("INSERT INTO tarefas(descricao) VALUE(?)");
-        $stmt->execute([$descricao]);
+        $res = $stmt->execute([$descricao]);
 
         if($res){
-            header("Location: ../index.php?mess=sucess");    
+            header("Location: ../index.php?mess=sucess");
         }else{
-            header("Location: ../index.php");    
+            header("Location: ../index.php");
         }
         $conn = null;
         exit();
@@ -22,4 +22,3 @@ if(isset($_POST['descricao'])){
 }else{
     header("Location: ../index.php?mess=error");
 }
- 
