@@ -15,8 +15,14 @@
 />
   </head>
   <body>
-
     <div class="container">
+      <div class="pesquisa">
+        <form action="app/search.php" method="post">
+          <input type= "text" name= "busca" placeholder="Pesquise uma tarefa">
+          <input type= "submit" name= "submit"> 
+        </form>
+
+      </div>
       <div class="adiciona">
         <form action="app/add.php" method="POST" autocomplete="off">
           <?php if(isset($_GET['mess']) && $_GET['mess'] == 'error'){ ?>
@@ -32,7 +38,7 @@
       <?php
           $tarefas = $conn->query("SELECT * FROM tarefas ORDER BY id DESC");
        ?>
-      <div class="mostar-tarefas">
+      <div class="mostrar-tarefas">
         <?php if($tarefas->rowCount()<=0){ ?>
           <div class="item-tarefa">
             <div class="empty">
@@ -52,7 +58,7 @@
               <h2><?php echo $tarefa['descricao']; ?></h2>
             <?php } ?>
             <br>
-            <small>criado em: <?php echo $tarefa['date_time'] ?></small>
+            <small>Criado em: <?php echo $tarefa['date_time'] ?></small>
           </div>
         <?php } ?>
       </div>

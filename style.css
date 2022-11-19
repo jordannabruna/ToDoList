@@ -19,6 +19,20 @@ body {
     left: 50%;
   }
 
+  .pesquisa{
+    font-family: sans-serif;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin: 10px auto;
+    background: #fff;
+    border-bottom: 2px solid #d1d3d4;
+    padding: 0.8em 0.5em;
+    color: #111111;
+    font-weight: 500;
+  }
+
   .adiciona {
     width: 100%;
     background: #fff;
@@ -77,7 +91,7 @@ body {
     height: 35px;
   }
 
-  .mostar-tarefas {
+  .mostrar-tarefas {
     width: 100%;
     background: #fff;
     margin: 30px auto;
