@@ -30,7 +30,9 @@ SET time_zone = "+00:00";
 CREATE TABLE `tarefas` (
   `id` int(11) NOT NULL,
   `descricao` text NOT NULL,
-  `checked` tinyint(1) NOT NULL DEFAULT 0
+  `checked` tinyint(1) NOT NULL DEFAULT 0,
+  `date_time` datetime NOT NULL
+
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
