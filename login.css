@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #8052ec;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-container .error {
+    max-heigth: 20px;
+  }
+  
+  .form-container h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #F4F4F4;
+  }
+  
+  .user-name-container {
+    margin-top: 20px;
+  }
+  
+  .user-name-container .label-user-name{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #F4F4F4;
+  }
+  
+  .user-name-container .input-user-name {
+    width:250px;
+    height: 30px;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  input::placeholder {
+    color: #F4F4F4;
+  }
+  
+  .password-container {
+    margin-top: 20px;
+  }
+  
+  .password-container .label-user-password {
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #F4F4F4;
+  }
+  
+  .password-container .input-password {
+    width:250px;
+    height: 30px;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  .button-login {
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #F4F4F4;
+  }
+  
+  
+  
