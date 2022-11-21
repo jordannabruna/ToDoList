@@ -17,11 +17,10 @@
   <body>
     <div class="container">
       <div class="pesquisa">
-        <form action="app/search.php" method="post">
-          <input type= "text" name= "busca" placeholder="Pesquise uma tarefa">
-          <input type= "submit" name= "submit"> 
+        <form class="form" action="app/search.php" method="post">
+          <input class="search-field" type= "text" name= "busca" placeholder="Pesquise uma tarefa">
+          <input class="search-field-button" type= "submit" name= "submit"> 
         </form>
-
       </div>
       <div class="adiciona">
         <form action="app/add.php" method="POST" autocomplete="off">
