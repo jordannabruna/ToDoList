@@ -12,7 +12,7 @@ body {
   width: 90%;
   max-width: 34em;
   position: absolute;
-  height: 500px;
+  height: 600px;
   margin: 30px auto;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -23,14 +23,19 @@ body {
   font-family: sans-serif;
   font-size: 1em;
   width: 90%;
-  height: 40px;
+  height: 50px;
   border: none;
   margin: 10px auto;
   background: #fff;
-  border-bottom: 2px solid #d1d3d4;
+  border-bottom: 2px solid #8052ec;
   padding: 0.8em 0.5em;
   color: #111111;
   font-weight: 500;
+}
+
+.pesquisa input::placeholder{
+    opacity: .8;
+    color: #fff;
 }
 
 .adiciona {
@@ -188,14 +193,10 @@ border: 1px solid rgba(255, 255, 255, 0.19);
 padding-left: 15px;
 }
 
-::-webkit-input-placeholder {
-font-family: sans-serif;
-font-size: 16px;
-color: #F4F4F4;
-}
+
 
 .pesquisa .search-field-button{
-width:80px;
+width:69px;
 height: 35px;
 background: rgba(164, 128, 249, 0.77);
 border-radius: 13px;
