@@ -22,3 +22,4 @@ Esse projeto tem como colaboradores Jordanna, Cyro, Bryan e Enzo
 2. No XAMPP, iniciar o Apache e o MySQL
 3. Em localhost/phpmyadmin/ crie os bancos de dados: login_db para o login e todo_list e importe os respectivos arquivos sql
 4. Entrar na URL http://localhost/ToDoList/login/index_login.php
+5. Utilizar como login e senha algum do login_db, como por exemplo: login: cyro senha:1234
