@@ -43,7 +43,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `user_name`, `password`, `name`) VALUES
 (1, 'cyro', '1234', 'cyro'),
 (2, 'enzo', 'abcde', 'enzo'),
-(3, 'jordana', 'abcdefg', 'jordana'),
+(3, 'jordanna', 'abcdefg', 'jordanna'),
 (4, 'bryan', '12345', 'bryan');
 --
 -- Indices das tabelas despejadas
